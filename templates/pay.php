@@ -5,22 +5,14 @@
     "key": "rzp_test_W9KJOUi6tO2dX4", // Enter the Key ID generated from the Dashboard
     "amount": "100", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
     "currency": "INR",
-    "name": "Acme Corp",
+    "name": "MyCompany",
     "description": "Test Transaction",
-    "image": "https://example.com/your_logo",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngitem.com%2Fmiddle%2FiJoihiw_dog-tag-donate-button-donate-button-heart-hd%2F&psig=AOvVaw22fAy4GxOilSpdxVkVPWqe&ust=1625401649518000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCIiD_pjzxvECFQAAAAAdAAAAABAQ",
     "handler": function (response){
         console.log(response);
     },
-    "prefill": {
-        "name": "Gaurav Kumar",
-        "email": "gaurav.kumar@example.com",
-        "contact": "9999999999"
-    },
-    "notes": {
-        "address": "Razorpay Corporate Office"
-    },
     "theme": {
-        "color": "#3399cc"
+        "color": "#68D6E1"
     }
 };
 var rzp1 = new Razorpay(options);
