@@ -229,7 +229,6 @@ rzp1.on('payment.failed', function (response){
         alert(response.error.metadata.payment_id);
 });
     rzp1.open();
-    e.preventDefault();
 }
 </script>
 
