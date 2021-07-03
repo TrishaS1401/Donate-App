@@ -147,8 +147,7 @@
 </nav>
     <div class="testbox">
       
-    <form action="/razor" method="POST">
-    {% csrf_token %}
+    <form>
       <div class="banner">
         <h1>DONATION FORM</h1>
       </div>
@@ -191,9 +190,14 @@
       </fieldset>
       <br/>
       <div class="btn-block">
-      <button type="submit">Submit</button>
+      <button type="submit" onclick="paynow()">Submit</button>
       </div>
     </form>
     </div>
+    <script>
+    function paynow(){
+      location.href="/razor";
+    }
+    </script>
   </body>
 </html>
