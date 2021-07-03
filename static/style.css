@@ -1,0 +1,46 @@
+/*---contact---*/
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis:  50%;
+	min-width: 300px;
+}
+.col-2 img{
+	padding: 50px 0px;
+}
+
+
+.contact1{
+	background: radial-gradient(#fff,#268E99);
+}
+#msg{
+	height: 100px;
+	width: 400px;
+}
+#add{
+	height: 50px;
+	width: 400px;
+}
+#ls{
+	width: 400px;
+}
+#fs{
+	width: 400px;
+}
+#sm{
+	width: 400px;
+}
+
+.about{
+	background: radial-gradient(#fff,#268E99);
+}
