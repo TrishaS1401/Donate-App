@@ -37,4 +37,24 @@ button:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-  
+/*---contact---*/
+.contact{
+	background: radial-gradient(#fff,#ffe6e6);
+}
+#msg{
+	height: 100px;
+	width: 400px;
+}
+#add{
+	height: 50px;
+	width: 400px;
+}
+#ls{
+	width: 400px;
+}
+#fs{
+	width: 400px;
+}
+#sm{
+	width: 400px;
+}
