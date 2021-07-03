@@ -8,4 +8,5 @@ urlpatterns = [
     path("pay",views.pay, name="pay"),
     path("about",views.about, name="about"),
     path("contact",views.contact, name="contact"),
+    path("razor",views.razor, name="razor"),
 ]

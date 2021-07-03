@@ -1,3 +1,6 @@
+body{
+	font-family: 'Otomanopee One', sans-serif;
+}
 /*---contact---*/
 .container{
 	max-width: 1300px;
@@ -19,9 +22,8 @@
 	padding: 50px 0px;
 }
 
-
 .contact1{
-	background: radial-gradient(#fff,#268E99);
+	background: radial-gradient(#fff,#248f8f);
 }
 #msg{
 	height: 100px;
@@ -42,5 +44,9 @@
 }
 
 .about{
-	background: radial-gradient(#fff,#268E99);
+	 background-repeat: no-repeat;
+	background-image: url(img.jpg);
+	background-attachment: fixed; 
+  background-size: cover;
+
 }
