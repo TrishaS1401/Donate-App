@@ -155,21 +155,12 @@
       <fieldset>
         <div class="columns">
           <div class="item">
-            <label for="fname">First Name<span>*</span></label>
-            <input id="fname" type="text" name="fname" />
-          </div>
-          <div class="item">
-            <label for="lname"> Last Name<span>*</span></label>
-            <input id="lname" type="text" name="lname" />
+            <label for="name">Full Name<span>*</span></label>
+            <input id="name" type="text" name="name" />
           </div>
           <div class="item">
             <label for="address">Address<span>*</span></label>
             <input id="address" type="text"   name="address" />
-          </div>
-          <div class="item">
-            <label for="amt">Amount<span>*</span></label>
-            <input type="hidden" value="<?php echo 'OID'.rand(100,1000);?>" name="oderid">
-              <input type="text" name="amount">
           </div>
           <div class="item">
             <label for="city">City<span>*</span></label>
@@ -179,13 +170,22 @@
             <label for="state">State<span>*</span></label>
             <input id="state" type="text"   name="state" />
           </div>
-          <div class="item">
-            <label for="eaddress">Email Address<span>*</span></label>
-            <input id="eaddress" type="text"   name="eaddress" />
+           <div class="item">
+            <label for="zip">Pincode<span>*</span></label>
+            <input id="pincode" type="text"   name="pincode" />
           </div>
           <div class="item">
-            <label for="phone">Phone<span>*</span></label>
-            <input id="phone" type="tel"   name="phone" />
+            <label for="amt">Amount<span>*</span></label>
+            <input type="hidden" value="<?php echo 'OID'.rand(100,1000);?>" name="oderid">
+              <input type="number" name="amount">
+          </div>
+          <div class="item">
+            <label for="email">Email Address<span>*</span></label>
+            <input id="email" type="text"   name="email">
+          </div>
+          <div class="item">
+            <label for="mobile">Phone<span>*</span></label>
+            <input id="mobile" type="tel"   name="mobile">
           </div>
       </fieldset>
       <br/>
