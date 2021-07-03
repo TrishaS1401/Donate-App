@@ -1,6 +1,4 @@
-body{
-	font-family: 'Otomanopee One', sans-serif;
-}
+
 /*---contact---*/
 .container{
 	max-width: 1300px;
@@ -42,6 +40,7 @@ body{
 #sm{
 	width: 400px;
 }
+
 
 .about{
 	 background-repeat: no-repeat;
