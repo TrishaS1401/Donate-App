@@ -144,7 +144,7 @@
 </nav>
     <div class="testbox">
       
-    <form action="/razor" method="POST">
+    <form>
     {% csrf_token %}
       <div class="banner">
         <h1>DONATION FORM</h1>
