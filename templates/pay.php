@@ -13,7 +13,7 @@
     data-prefill.name="<?php echo $_POST['name'];?>"
     data-prefill.email="<?php echo $_POST['email'];?>"
     data-prefill.contact="<?php echo $_POST['mobile'];?>"
-    data-theme.color="#F37254"
+    data-theme.color="#248f8f"
 ></script>
 <input type="hidden" custom="Hidden Element" name="hidden">
 </form>
