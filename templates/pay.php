@@ -7,7 +7,7 @@
     "currency": "INR",
     "name": "MyCompany",
     "description": "Test Transaction",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngitem.com%2Fmiddle%2FiJoihiw_dog-tag-donate-button-donate-button-heart-hd%2F&psig=AOvVaw22fAy4GxOilSpdxVkVPWqe&ust=1625401649518000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCIiD_pjzxvECFQAAAAAdAAAAABAQ",
+    "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/donate-logo-design-template-2a0222d09351e90d935dbb4715c1918c_screen.jpg?ts=1590585470",
     "handler": function (response){
         console.log(response);
     },
