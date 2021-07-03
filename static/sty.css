@@ -1,0 +1,40 @@
+/*html{
+	background: url(donate.jpg) no-repeat center center fixed;
+	-webkit-background-size:  cover;
+	-moz-background-size:  cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background:  #268E99;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+button:hover {
+      background:  #68D6E1;
+      }
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  
