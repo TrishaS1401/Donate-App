@@ -10,4 +10,4 @@ def about(request):
 def contact(request):
     return render(request, 'contact.html')
 def razor(request):
-    return render(request, 'razor.php')
+    return render(request, 'pay.php')
