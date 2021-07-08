@@ -38,12 +38,13 @@
 		<br>
 		<div class="row">
 			<div class="col-2">
-		<form method="post" action='/contact'>
-			
-			<p><b>First Name</p></b>
+		<form action="https://formsubmit.co/trishashetty01@email.com" method="POST">
+			<input type="hidden" name="_captcha" value="false">
+			<p><b>Full Name</p></b>
 			<input type="text" id="fs" name="fn">
-			<p><b>Last Name</p></b>
-			<input type="text" id="ls" name="ln">
+			<p><b>Email</p></b>
+			<input type="email" id="ls" name="ln" required>
+			<input type="hidden" name="_next" value="https://donate-now-app.herokuapp.com/thankyou">
 			<p><b>Message</p></b>
 			<textarea id="msg" name="ms"></textarea >
 		

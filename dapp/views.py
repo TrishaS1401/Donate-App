@@ -9,5 +9,7 @@ def about(request):
     return render(request, 'about.html')
 def contact(request):
     return render(request, 'contact.html')
+def thankyou(request):
+    return render(request, 'thankyou.html')
 def razor(request):
     return render(request, 'pay.php')
