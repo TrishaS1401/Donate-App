@@ -11,5 +11,7 @@ def contact(request):
     return render(request, 'contact.html')
 def thankyou(request):
     return render(request, 'thankyou.html')
+def mail(request):
+    return render(request, 'mail.php')
 def razor(request):
     return render(request, 'pay.php')
